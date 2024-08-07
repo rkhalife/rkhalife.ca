@@ -1,0 +1,14 @@
+colorScheme = "slate"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+defaultThemeColor = "#FFFFFF"
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 5
+
+[header]
+  layout = "hybdrid"
+  showTitle = true

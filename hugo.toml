@@ -1,0 +1,5 @@
+baseURL = 'https://rkhalife.ca/'
+languageCode = 'en-us'
+title = 'Roger Khalife'
+theme = 'congo'
+summaryLength = 0

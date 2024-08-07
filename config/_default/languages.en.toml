@@ -1,0 +1,10 @@
+[params.author]
+name = "Roger Khalife"
+image = "img/rog.jpg"
+headline = ""
+bio = "A little bit about me"
+links = [
+  { twitter = "https://www.twitter.com/rokhalife" },
+  { linkedin = "https://www.linkedin.com/in/rogerkhalife" },
+  { github = "https://www.github.com/rkhalife"}
+]
