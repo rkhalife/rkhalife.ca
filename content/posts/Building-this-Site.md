@@ -16,3 +16,10 @@ Here's a quick rundown of what I did:
 - Added the Custom SSL Certificate and the domain name to my CloudFront distribution once the certificate was ready
 - Pushed my Hugo Site to Github
 - Created a [Github action](https://github.com/rkhalife/rkhalife.ca/blob/main/.github/workflows/main.yml) to automatically update the S3 bucket whenever I push changes
+
+Unfortunately I ran into issues with links. After an unsuccessful attempt to resolve it by asking ChatGPT, I ended up finding this valuable info:
+>When it comes to a post, we’re no longer being helped by built-in redirection provided by S3 or CloudFront. We need to build it our self.
+We know Hugo likes to add a trailing / to each page. But we need it to end in /index.html instead.
+That’s where CloudFront Functions come in.
+
+You can read more about it [here](https://jeremyritchie.com/posts/5/). It's not ideal but I can confirm that it works. My site is finally up and running!
